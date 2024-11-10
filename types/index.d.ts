@@ -12,7 +12,19 @@ export type SiteConfig = {
   links: {
     twitter: string;
     github: string;
+    linkedin: string;
   };
+};
+
+export type ContentCard = {
+  title: string; 
+  content: string;
+  icon: string;
+  bullets: string[];
+};
+
+export type ContentCardsConfig = {
+  cards: ContentCard[]; 
 };
 
 export type NavItem = {

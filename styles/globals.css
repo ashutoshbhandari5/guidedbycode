@@ -72,6 +72,17 @@
   }
 }
 
+@layer components {
+ .card-container {
+  @apply sticky top-0 h-screen flex flex-col items-center space-y-8;
+}
+
+.card {
+  @apply bg-white dark:bg-gray-800 shadow-lg rounded-lg p-6 text-center;
+}
+
+}
+
 @layer utilities {
   .step {
     counter-increment: step;

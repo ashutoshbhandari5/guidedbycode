@@ -30,6 +30,7 @@ import {
   SunMedium,
   Trash,
   User,
+  CodeXml,
   X,
 } from "lucide-react";
 
@@ -103,7 +104,7 @@ export const Icons = {
   home: Home,
   laptop: Laptop,
   lineChart: LineChart,
-  logo: Puzzle,
+  logo: CodeXml,
   media: Image,
   messages: MessagesSquare,
   moon: Moon,

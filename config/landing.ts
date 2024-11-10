@@ -1,4 +1,4 @@
-import { FeatureLdg, InfoLdg, TestimonialType } from "types";
+import { FeatureLdg, InfoLdg, TestimonialType, ContentCard } from "types";
 
 export const infos: InfoLdg[] = [
   {
@@ -148,3 +148,44 @@ export const testimonials: TestimonialType[] = [
       "Thanks to next-saas-stripe-starter, I've been able to create modern and attractive user interfaces in record time. The starter kit provides a solid foundation for building sleek and intuitive designs, allowing me to focus more on the creative aspects of my work.",
   },
 ];
+
+export const contentCards: ContentCard[] = [
+  {
+    title: "I’ll guide you with the right resources and a plan that fits you.",
+    content:
+      "I know how frustrating it is to waste time on things that don’t help. That’s why I’ll give you a clear, personalized plan and the right resources to follow. No unnecessary steps, no extra noise—just a path that’s built for you and your goals.",
+    bullets: [
+      "A plan tailored to you.",
+      "Resources for your learning style.",
+      "Focus on learning, not searching.",
+      "Clear milestones for progress.",
+    ],
+    icon: "book", // Icon for the first card
+  },
+  {
+    title: "I’ll help you through the hard days and keep you moving forward.",
+    content:
+      "Some days, coding will feel frustrating. You’ll doubt yourself or feel like giving up. That’s okay it happens to everyone. But I’ll be there to guide you, remind you of your progress, and help you push through, no matter how hard it gets.",
+    bullets: [
+      "Support when you're stuck.",
+      "Build habits for daily progress.",
+      "Overcome procrastination and burnout.",
+      "Honest advice for imposter syndrome.",
+    ],
+    icon: "heart", // Icon for the second card
+  },
+  {
+    title: "I’ll guide you to prepare for your first job in tech.",
+    content:
+      "Getting your first job in tech takes effort, and I’m here to help you focus on the right things. I’ll guide you in building a strong portfolio, preparing for interviews, and understanding what recruiters are looking for.",
+    bullets: [
+      "Build a standout portfolio.",
+      "Prepare for technical interviews.",
+      "Create a strong resume and LinkedIn.",
+      "Learn what recruiters want.",
+    ],
+    icon: "briefcase", // Icon for the third card
+  },
+];
+
+
