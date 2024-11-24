@@ -43,33 +43,35 @@ export function NewsletterForm() {
   }
 
   return (
-    <Form {...form}>
-      <form
-        onSubmit={form.handleSubmit(onSubmit)}
-        className="w-full space-y-2 sm:max-w-sm"
-      >
-        <FormField
-          control={form.control}
-          name="email"
-          render={({ field }) => (
-            <FormItem>
-              <FormLabel>Subscribe to our newsletter</FormLabel>
-              <FormControl>
-                <Input
-                  type="email"
-                  className="rounded-full px-4"
-                  placeholder="janedoe@example.com"
-                  {...field}
-                />
-              </FormControl>
-              <FormMessage />
-            </FormItem>
-          )}
-        />
-        <Button type="submit" size="sm" rounded="full" className="px-4">
-          Subscribe
-        </Button>
-      </form>
-    </Form>
+    <div className="flex items-center justify-center">
+      <Form {...form}>
+        <form
+          onSubmit={form.handleSubmit(onSubmit)}
+          className="w-full space-y-2 text-center sm:max-w-sm"
+        >
+          <FormField
+            control={form.control}
+            name="email"
+            render={({ field }) => (
+              <FormItem>
+                <FormLabel>Subscribe to my newsletter</FormLabel>
+                <FormControl>
+                  <Input
+                    type="email"
+                    className="rounded-full px-4"
+                    placeholder="janedoe@example.com"
+                    {...field}
+                  />
+                </FormControl>
+                <FormMessage />
+              </FormItem>
+            )}
+          />
+          <Button type="submit" size="sm" rounded="full" className="px-4">
+            Subscribe
+          </Button>
+        </form>
+      </Form>
+    </div>
   );
 }

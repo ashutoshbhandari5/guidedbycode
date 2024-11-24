@@ -17,14 +17,14 @@ export type SiteConfig = {
 };
 
 export type ContentCard = {
-  title: string; 
+  title: string;
   content: string;
   icon: string;
   bullets: string[];
 };
 
 export type ContentCardsConfig = {
-  cards: ContentCard[]; 
+  cards: ContentCard[];
 };
 
 export type NavItem = {
@@ -111,4 +111,16 @@ export type TestimonialType = {
   job: string;
   image: string;
   review: string;
+};
+
+export type TimelineImage = {
+  src: string;
+  alt: string;
+};
+
+export type TimelineItem = {
+  title: string;
+  description: string;
+  points: string[];
+  images: TimelineImage[];
 };

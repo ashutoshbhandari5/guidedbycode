@@ -1,25 +1,8 @@
 import Image from "next/image";
-import { env } from "@/env.mjs";
 
 export default async function HeroLanding() {
-  const { stargazers_count: stars } = await fetch(
-    "https://api.github.com/repos/mickasmt/next-saas-stripe-starter",
-    {
-      ...(env.GITHUB_OAUTH_TOKEN && {
-        headers: {
-          Authorization: `Bearer ${process.env.GITHUB_OAUTH_TOKEN}`,
-          "Content-Type": "application/json",
-        },
-      }),
-      // data will revalidate every hour
-      next: { revalidate: 3600 },
-    },
-  )
-    .then((res) => res.json())
-    .catch((e) => console.log(e));
-
   return (
-    <section className="space-y-2 pt-12 sm:pt-20 sm:pb-5 lg:pt-20">
+    <section className="space-y-2 pt-12 sm:pb-5 sm:pt-20 lg:pt-20">
       <div className="container flex max-w-5xl flex-col items-center gap-5 text-center">
         <h1 className="text-balance font-urban text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl lg:text-[66px]">
           Your Coding Journey Starts Here

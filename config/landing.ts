@@ -1,151 +1,54 @@
-import { FeatureLdg, InfoLdg, TestimonialType, ContentCard } from "types";
-
-export const infos: InfoLdg[] = [
-  {
-    title: "Empower your projects",
-    description:
-      "Unlock the full potential of your projects with our open-source SaaS platform. Collaborate seamlessly, innovate effortlessly, and scale limitlessly.",
-    image: "/_static/illustrations/work-from-home.jpg",
-    list: [
-      {
-        title: "Collaborative",
-        description: "Work together with your team members in real-time.",
-        icon: "laptop",
-      },
-      {
-        title: "Innovative",
-        description: "Stay ahead of the curve with access constant updates.",
-        icon: "settings",
-      },
-      {
-        title: "Scalable",
-        description:
-          "Our platform offers the scalability needed to adapt to your needs.",
-        icon: "search",
-      },
-    ],
-  },
-  {
-    title: "Seamless Integration",
-    description:
-      "Integrate our open-source SaaS seamlessly into your existing workflows. Effortlessly connect with your favorite tools and services for a streamlined experience.",
-    image: "/_static/illustrations/work-from-home.jpg",
-    list: [
-      {
-        title: "Flexible",
-        description:
-          "Customize your integrations to fit your unique requirements.",
-        icon: "laptop",
-      },
-      {
-        title: "Efficient",
-        description: "Streamline your processes and reducing manual effort.",
-        icon: "search",
-      },
-      {
-        title: "Reliable",
-        description:
-          "Rely on our robust infrastructure and comprehensive documentation.",
-        icon: "settings",
-      },
-    ],
-  },
-];
-
-export const features: FeatureLdg[] = [
-  {
-    title: "Feature 1",
-    description:
-      "Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente.",
-    link: "/",
-    icon: "nextjs",
-  },
-  {
-    title: "Feature 2",
-    description:
-      "Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente.",
-    link: "/",
-    icon: "google",
-  },
-  {
-    title: "Feature 3",
-    description:
-      "Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente.",
-    link: "/",
-    icon: "gitHub",
-  },
-  {
-    title: "Feature 4",
-    description:
-      "Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente.",
-    link: "/",
-    icon: "laptop",
-  },
-  {
-    title: "Feature 5",
-    description:
-      "Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente.",
-    link: "/",
-    icon: "user",
-  },
-  {
-    title: "Feature 6",
-    description:
-      "Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente.",
-    link: "/",
-    icon: "copy",
-  },
-];
+import { ContentCard, TestimonialType, TimelineItem } from "types";
 
 export const testimonials: TestimonialType[] = [
   {
-    name: "John Doe",
-    job: "Full Stack Developer",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
+    name: "Salah Dine",
+    job: "Student learning data science",
+    image: "/_static/testimonials/salah.jpg",
     review:
-      "The next-saas-stripe-starter repo has truly revolutionized my development workflow. With its comprehensive features and seamless integration with Stripe, I've been able to build and deploy projects faster than ever before. The documentation is clear and concise, making it easy to navigate through the setup process. I highly recommend next-saas-stripe-starter to any developer.",
+      "We had a time difference and I remember he use to come with those red eyes and still reviewd all of my assignments and with all those tired face he still had energy to be strict on me, haha I remember once I was saying sorry and you were scolding like sorry won't help but it was worth it.",
   },
   {
-    name: "Alice Smith",
-    job: "UI/UX Designer",
-    image: "https://randomuser.me/api/portraits/women/2.jpg",
+    name: "Abhishekh Chand",
+    job: "React Developer",
+    image: "/_static/testimonials/abhishek.jpg",
     review:
-      "Thanks to next-saas-stripe-starter, I've been able to create modern and attractive user interfaces in record time. The starter kit provides a solid foundation for building sleek and intuitive designs, allowing me to focus more on the creative aspects of my work.",
+      "I was new in freelancing and we worked on a same project of one client. I was beginner there but he helped me understood the project then guided me for more than 3 months which gave a huge confident in React and Spring boot.",
   },
   {
-    name: "David Johnson",
-    job: "DevOps Engineer",
-    image: "https://randomuser.me/api/portraits/men/3.jpg",
+    name: "Aavash Niroula",
+    job: "Student learning code",
+    image: "/_static/testimonials/aavash.jpg",
     review:
-      "Thanks to next-saas-stripe-starter, I was able to streamline the entire process and get payments up and running in no time. ",
+      "Ashutosh is my brother, he mentored me for long period of time and I just bought a laptop to learn coding. Now he guides me everyday. I'm 17 and I already feel confident about programming. Hoping for more lessons in the future. Once he asked me to work on his office code and it was a good experience, hope we do that often😜",
   },
   {
-    name: "Michael Wilson",
-    job: "Project Manager",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    name: "Sandeep Bhattarai",
+    job: "Full stack developer",
+    image: "/_static/testimonials/sandeep.jpg",
     review:
-      "I'm impressed by the quality of code and clear documentation of next-saas-stripe-starter. Kudos to the team!",
+      "Thanks my friend for your valuable lessons. I understood importance of fundamental instead of jumping back and forth between the different frameworks. He told me to stay focus on one tech at a time and created a schedule for everyday, I just followed that schedule and then it was kind of habit.",
   },
   {
-    name: "Sophia Garcia",
-    job: "Data Analyst",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    name: "Εugen Pitt",
+    job: "Next JS developer",
+    image: "/_static/testimonials/eugen.jpg",
     review:
-      "next-saas-stripe-starter provided me with the tools I needed to efficiently manage user data. Thank you so much!",
+      "I posted a job at upwork for my assignment where I was really stuck. Ashutosh hit me with the proposal and solved my issue then he told me he can guide me until I get confident with coding so we started meeting on zoom for like 5, 6 months and it was really good. Thank you for guiding me and best of luck!",
   },
   {
-    name: "Emily Brown",
-    job: "Marketing Manager",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    name: "Abel Tsegaye",
+    job: "Node Js student",
+    image: "/_static/testimonials/abel.jpg",
     review:
-      "next-saas-stripe-starter has been an invaluable asset in my role as a marketing manager. With its seamless integration with Stripe, I've been able to launch targeted marketing campaigns with built-in payment functionality, allowing us to monetize our products and services more effectively.",
+      "Even though I was really bad at english he made sure I understood everything during our coaching session, he planned me a study timing and provided the right resouces. I use to ask like 1000 of questions but he would answer with care. Thanks man it really helped me.",
   },
   {
-    name: "Jason Stan",
-    job: "Web Designer",
-    image: "https://randomuser.me/api/portraits/men/9.jpg",
+    name: "Raavi Thind",
+    job: "Spring boot Intern",
+    image: "/_static/testimonials/raavi.jpg",
     review:
-      "Thanks to next-saas-stripe-starter, I've been able to create modern and attractive user interfaces in record time. The starter kit provides a solid foundation for building sleek and intuitive designs, allowing me to focus more on the creative aspects of my work.",
+      "I met Ashutosh in Facebook group where I was stuck and asking for help. We ended up having a Zoom call, and he explained things in such a simple way, especially about procrastination and imposter syndrome. I used to feel so anxious about whether I was even good enough at coding. But he guided me every day, which helped me build better habits. Honestly, he was kinda strict at first, and I was like, 'Does he need to be this serious?' But it really helped me improve bit by bit.",
   },
 ];
 
@@ -188,4 +91,56 @@ export const contentCards: ContentCard[] = [
   },
 ];
 
-
+export const timelineData: TimelineItem[] = [
+  {
+    title: "Your Journey Starts Here",
+    description: "Let’s take the first step together.",
+    points: [
+      "We’ll have a one-on-one call to talk about your goals and challenges.",
+      "Together, we’ll decide what’s most important and where to start.",
+      "I’ll help you pick the best tools and skills for your journey.",
+      "You’ll get a step-by-step plan made just for you.",
+      "I’ll share everything you need to stay focused and motivated.",
+    ],
+    images: [
+      { src: "/_static/blog/one.jpg", alt: "goal-setting session" },
+      { src: "/_static/blog/brainstorming.jpg", alt: "brainstorming ideas" },
+      { src: "/_static/blog/roadmap.jpg", alt: "roadmap planning" },
+      { src: "/_static/blog/happy.jpg", alt: "achieving milestones" },
+    ],
+  },
+  {
+    title: "Progress and Support",
+    description: "Keep moving forward with my help.",
+    points: [
+      "I’ll check in with you regularly to see how you’re doing.",
+      "You’ll get feedback on your homework and projects to help you improve.",
+      "We’ll work together to solve any problems and stay consistent.",
+      "If needed, we’ll adjust the plan to match your progress and goals.",
+    ],
+    images: [
+      { src: "/_static/blog/tutoring.jpg", alt: "startup template" },
+      { src: "/_static/blog/learning.jpg", alt: "learning progress" },
+      { src: "/_static/blog/taskPlanning.jpg", alt: "task planning" },
+      { src: "/_static/blog/planning.jpg", alt: "planning session" },
+    ],
+  },
+  {
+    title: "Get Job-Ready",
+    description:
+      "Prepare yourself to step into the job market with confidence.",
+    points: [
+      "Build a professional portfolio that highlights your real-world projects and skills.",
+      "Learn how to create an impressive resume and LinkedIn profile that stand out.",
+      "Practice for interviews with mock sessions to gain confidence and improve performance.",
+      "Gain insights into applying for jobs effectively and connecting with recruiters.",
+      "Stay focused and motivated as you take these crucial steps toward your career.",
+    ],
+    images: [
+      { src: "/_static/blog/practicing.jpg", alt: "Building portfolio" },
+      { src: "/_static/blog/workingTask.jpg", alt: "Interview preparation" },
+      { src: "/_static/blog/focused.jpg", alt: "Connecting with recruiters" },
+      { src: "/_static/blog/success.jpg", alt: "Achieving goals" },
+    ],
+  },
+];
