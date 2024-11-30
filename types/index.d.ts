@@ -61,13 +61,9 @@ export type SubscriptionPlan = {
   description: string;
   benefits: string[];
   limitations: string[];
-  prices: {
-    monthly: number;
-    yearly: number;
-  };
-  stripeIds: {
-    monthly: string | null;
-    yearly: string | null;
+  price: {
+    isPaid: boolean;
+    amount: number | null;
   };
 };
 
@@ -123,4 +119,9 @@ export type TimelineItem = {
   description: string;
   points: string[];
   images: TimelineImage[];
+};
+
+export type Faqs = {
+  question: string;
+  answer: string;
 };

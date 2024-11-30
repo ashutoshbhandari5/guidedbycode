@@ -1,4 +1,6 @@
 import BackgroundGrid from "@/components/sections/backgroundGrid";
+import Faq from "@/components/sections/faq";
+import FullPricing from "@/components/sections/fullPricing";
 import HeroLanding from "@/components/sections/hero-landing";
 import { LearningTimeline } from "@/components/sections/learningTimeline";
 import Testimonials from "@/components/sections/testimonials";
@@ -12,6 +14,8 @@ export default function IndexPage() {
       <BackgroundGrid />
       <LearningTimeline />
       <Testimonials />
+      <FullPricing />
+      <Faq />
     </>
   );
 }

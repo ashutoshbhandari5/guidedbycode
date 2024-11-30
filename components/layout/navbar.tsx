@@ -10,6 +10,7 @@ import { cn } from "@/lib/utils";
 import { useScroll } from "@/hooks/use-scroll";
 import { Icons } from "@/components/shared/icons";
 import MaxWidthWrapper from "@/components/shared/max-width-wrapper";
+
 import { ModeToggle } from "./mode-toggle";
 
 interface NavBarProps {
@@ -69,7 +70,7 @@ export function NavBar({ scroll = false }: NavBarProps) {
             </nav>
           ) : null}
         </div>
-        <ModeToggle/>
+        <ModeToggle />
       </MaxWidthWrapper>
     </header>
   );

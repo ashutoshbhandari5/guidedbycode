@@ -6,7 +6,7 @@ import { HeaderSection } from "@/components/shared/header-section";
 export default function Testimonials() {
   return (
     <section>
-      <div className="container flex max-w-6xl flex-col gap-10 pt-20 pb-32 sm:gap-y-16">
+      <div className="container flex max-w-6xl flex-col gap-10 pb-20 pt-20 sm:gap-y-16">
         <HeaderSection
           label="Testimonials"
           title="What my students are sharing."
@@ -14,7 +14,7 @@ export default function Testimonials() {
             worldwide."
         />
 
-        <div className="column-1 gap-5 space-y-5 md:columns-2 lg:columns-3 ">
+        <div className="column-1 gap-5 space-y-5 md:columns-2 lg:columns-3">
           {testimonials.map((item) => (
             <div className="break-inside-avoid" key={item.name}>
               <div className="relative rounded-xl border bg-muted/25">

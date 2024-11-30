@@ -1,4 +1,4 @@
-import { ContentCard, TestimonialType, TimelineItem } from "types";
+import { ContentCard, Faqs, TestimonialType, TimelineItem } from "types";
 
 export const testimonials: TestimonialType[] = [
   {
@@ -142,5 +142,38 @@ export const timelineData: TimelineItem[] = [
       { src: "/_static/blog/focused.jpg", alt: "Connecting with recruiters" },
       { src: "/_static/blog/success.jpg", alt: "Achieving goals" },
     ],
+  },
+];
+
+export const faqs: Faqs[] = [
+  {
+    question: "Who is this for?",
+    answer:
+      "This is for anyone who wants to learn coding, whether you're just starting out or feeling stuck. If you need help figuring out what to do next, this is for you.",
+  },
+  {
+    question: "What will I get?",
+    answer:
+      "You’ll get a simple plan to follow, resources to learn from, and someone to guide you step by step. I’ll also check in to make sure you’re staying on track.",
+  },
+  {
+    question: "What if I’ve tried before and failed?",
+    answer:
+      "That’s okay. Failing is part of learning. We’ll figure out what went wrong and start fresh with a simple, clear plan.",
+  },
+  {
+    question: "Do I need to know anything before starting?",
+    answer:
+      "No, you don’t. Even if you’ve never written a single line of code, I’ll help you start from the basics.",
+  },
+  {
+    question: "How will you help me?",
+    answer:
+      "I’ll show you what to focus on, help you stay motivated, and be there when you feel stuck or unsure.",
+  },
+  {
+    question: "Why are you doing this?",
+    answer:
+      "Because I know how hard it can be to start learning coding. I struggled too, and I want to make it easier for others to move forward.",
   },
 ];
